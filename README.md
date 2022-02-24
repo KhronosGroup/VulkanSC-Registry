@@ -1,6 +1,6 @@
 # VulkanSC-Registry
 
-The VulkanSC-Registry repository contains the VulkanSC API and Extension
+The VulkanSC-Registry repository contains the Vulkan SC API and Extension
 Registry, including generated specifications and reference pages, and
 reference cards. The sources for these documents are found in the separate
 https://github.com/KhronosGroup/Vulkan-Docs repository, in the `sc_main`
