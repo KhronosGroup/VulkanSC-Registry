@@ -71,8 +71,8 @@ include_once("../../assets/static_pages/khr_page_top.php");
      been incorporated into the Specification Repository, including KHR,
      EXT, and vendor extensions. </li>
 <li> <b>Vulkan SC 1.0 Core API</b>
-     <a href="specs/1.0/pdf/vkspec.pdf">(PDF)</a> </li>
-     <a href="specs/1.0/html/vkspec.html">(Single-file HTML)</a>
+     <a href="specs/1.0/pdf/vkspec.pdf">(PDF)</a>
+     <a href="specs/1.0/html/vkspec.html">(Single-file HTML)</a></li>
 </ul>
 
 
@@ -275,7 +275,7 @@ include_once("../../assets/static_pages/khr_page_top.php");
 
 <h3> <a name="repo-samples"></a> <b>Sample Code Repository</b> </h3>
 
-<p> Not yet available. </p>
+<p> Not available yet. </p>
 <!-- Not available for Vulkan SC 1.0 yet
 <p> The <a href="https://github.com/KhronosGroup/VulkanSC-Samples">
     VulkanSC-Samples</a> repository contains sample code showing use of
