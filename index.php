@@ -174,7 +174,7 @@ include_once("../../assets/static_pages/khr_page_top.php");
     -->
 <p> <b>NOTE:</b> List of SC extensions TBD. </p>
 
-<p> Vulkan-Docs also contains the header files, API Registry, and reference
+<p> VulkanSC-Docs also contains the header files, API Registry, and reference
     page sources. </p>
 
 
@@ -186,7 +186,8 @@ include_once("../../assets/static_pages/khr_page_top.php");
     needed. We also provide a canonical version of these headers
     corresponding to spec updates in the <tt>sc_main</tt> branch of the <a
     href="#vulkan-headers"> KhronosGroup/Vulkan-Headers</a> repository.
-    These headers do <b>not</b> include Vulkan HPP Style C++ headers at present. </p>
+    These headers do <b>not</b> include VulkanHPP-style C++ headers at present,
+    but there is a MISRA C++ friendly <tt>vulkan_sc_core.hpp</tt> header.</p>
 
 <p> The <tt>sc_main</tt> branch of Vulkan-Headers also includes a <a
     href="specs/1.0-extensions/validation/validusage.json">JSON file
@@ -203,7 +204,7 @@ include_once("../../assets/static_pages/khr_page_top.php");
     href="#apiregistry">API Registry</a> and scripts under <b>xml/</b>. </p>
 
 <p> Note: there are two static headers included in the <tt>sc_main</tt>
-    branch of Vulkan-Headers, <tt>vk_platform.h</tt> and <tt>vulkan.h</tt>.
+    branch of Vulkan-Headers, <tt>vk_platform.h</tt> and <tt>vulkan_sc.h</tt>.
     These headers are not generated dynamically from the VulkanSC-Docs
     repository. </p>
 
@@ -274,6 +275,7 @@ include_once("../../assets/static_pages/khr_page_top.php");
 
 <h3> <a name="repo-samples"></a> <b>Sample Code Repository</b> </h3>
 
+<p> Not yet available. </p>
 <!-- Not available for Vulkan SC 1.0 yet
 <p> The <a href="https://github.com/KhronosGroup/VulkanSC-Samples">
     VulkanSC-Samples</a> repository contains sample code showing use of
@@ -286,14 +288,16 @@ include_once("../../assets/static_pages/khr_page_top.php");
 <p> Other Khronos repositories containing Vulkan SC material include: </p>
 
 <ul>
+<li> None yet! </li>
     <!-- No Vulkan SC C++ headers, at present
 <li> The <a href="https://github.com/KhronosGroup/Vulkan-Hpp"
      id="vulkan-hpp"> Vulkan-Hpp</a> repository contains code used to
      generate <tt>vulkan.hpp</tt>, a C++ binding for Vulkan SC. A version of
      <tt>vulkan.hpp</tt> is included in the <a
-     href="#vulkan-headers">VulkanSC-Headers</a> repository. </li> </ul>
+     href="#vulkan-headers">VulkanSC-Headers</a> repository. </li>
     -->
-
+</ul>
+ 
 <h3> <a name="feedback"></a> <b>Providing Feedback on the Registry</b> </h3>
 
 <p> Khronos welcomes comments and bug reports. To provide feedback on the
