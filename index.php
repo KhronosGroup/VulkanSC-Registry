@@ -14,9 +14,11 @@ include_once("../../assets/static_pages/khr_page_top.php");
     and headers are published in the <a
     href="https://www.khronos.org/registry/spir-v/">SPIR-V Registry</a>.
     There are a variety of compilers and other tools for generating
-    SPIR-V code. We encourage developers to explore related Vulkan SC
+    SPIR-V code. We encourage developers to explore related Vulkan
     material starting at the top-level <a
     href="https://www.khronos.org/vulkan/">Vulkan landing page</a>. </p>
+
+<p> <b>NOTE:</b> Vulkan SC and Vulkan currently use the same shader toolchains and SPIR-V dialects. </p>
 
 <p> The <a href="https://github.com/KhronosGroup/GLSL">GLSL Shading
     Language</a> GitHub repository contains OpenGL Shading Language
@@ -63,14 +65,14 @@ include_once("../../assets/static_pages/khr_page_top.php");
 
 <ul>
 <li> <b>Vulkan SC 1.0 Core API + all published Extensions</b>
-     <a href="specs/1.3-extensions/pdf/vkspec.pdf">(PDF)</a>
-     <a href="specs/1.3-extensions/html/vkspec.html">(Single-file HTML)</a>
+     <a href="specs/1.0-extensions/pdf/vkspec.pdf">(PDF)</a>
+     <a href="specs/1.0-extensions/html/vkspec.html">(Single-file HTML)</a>
      This Specification includes all registered Vulkan SC extensions which have
      been incorporated into the Specification Repository, including KHR,
      EXT, and vendor extensions. </li>
 <li> <b>Vulkan SC 1.0 Core API</b>
-     <a href="specs/1.3/pdf/vkspec.pdf">(PDF)</a> </li>
-     <a href="specs/1.3/html/vkspec.html">(Single-file HTML)</a>
+     <a href="specs/1.0/pdf/vkspec.pdf">(PDF)</a> </li>
+     <a href="specs/1.0/html/vkspec.html">(Single-file HTML)</a>
 </ul>
 
 
@@ -96,7 +98,7 @@ include_once("../../assets/static_pages/khr_page_top.php");
 <p> <b>NOTE:</b> Vulkan SC and Vulkan use the same style guide. </p>
 
 
-  <!-- Not updated for 1.3 yet
+  <!-- Not updated for Vulkan SC 1.0 yet
 <h2> <a name="refguide"></a> <b>Vulkan SC 1.0 API Quick Reference</b> </h2>
 
 <p> The <a href="specs/1.0/refguide/Vulkan SC-1.0-web.pdf">Vulkan SC 1.0 API Quick
@@ -184,10 +186,10 @@ include_once("../../assets/static_pages/khr_page_top.php");
     needed. We also provide a canonical version of these headers
     corresponding to spec updates in the <tt>sc_main</tt> branch of the <a
     href="#vulkan-headers"> KhronosGroup/Vulkan-Headers</a> repository.
-    These headers do <b>not</b> include C++ headers at present. </p>
+    These headers do <b>not</b> include Vulkan HPP Style C++ headers at present. </p>
 
 <p> The <tt>sc_main</tt> branch of Vulkan-Headers also includes a <a
-    href="specs/1.3-extensions/validation/validusage.json">JSON file
+    href="specs/1.0-extensions/validation/validusage.json">JSON file
     containing Valid Usage ID (VUID) tags</a> (and corresponding valid usage
     statements) extracted from the specification sources. This is used only
     by the validation layer, at present. </p>
@@ -247,22 +249,24 @@ include_once("../../assets/static_pages/khr_page_top.php");
 <ul>
 <li> The <tt>sc_main</tt> branch of the <a
      href="https://github.com/KhronosGroup/Vulkan-Headers"
-     id="vulkan-headers"> VulkanSC-Headers</a> repository contains a copy of
+     id="vulkan-headers"> Vulkan-Headers</a> repository contains a copy of
      the Vulkan XML API Registry and scripts for processing it, taken from
      the latest public specification update in the <a href="#repo-docs">
-     Vulkan-Docs</a> project, and the corresponding generated Vulkan SC API
+     VulkanSC-Docs</a> project, and the corresponding generated Vulkan SC API
      headers. </li>
-<li> The <a href="https://github.com/KhronosGroup/VulkanSC-Tools"
-     id="vulkan-tools"> VulkanSC-Tools</a> repository contains Khronos
+<!-- Not available for Vulkan SC 1.0 yet
+<li> The <a href="https://github.com/KhronosGroup/Vulkan-Tools"
+     id="vulkan-tools"> Vulkan-Tools</a> repository contains Khronos
      official Vulkan SC Tools and Utilities for Windows, Linux, Android, and
      MacOS. </li>
-<li> The <a href="https://github.com/KhronosGroup/VulkanSC-ValidationLayers"
-     id="vulkan-layers"> VulkanSC-ValidationLayers</a> repository contains
+<li> The <a href="https://github.com/KhronosGroup/Vulkan-ValidationLayers"
+     id="vulkan-layers"> Vulkan-ValidationLayers</a> repository contains
      the Khronos official Vulkan SC validation layers for Windows, Linux,
      Android, and MacOS. </li>
-<li> The <a href="https://github.com/KhronosGroup/VulkanSC-Loader"
-     id="vulkan-loader"> VulkanSC-Loader</a> repository contains the Vulkan
+<li> The <a href="https://github.com/KhronosGroup/Vulkan-Loader"
+     id="vulkan-loader"> Vulkan-Loader</a> repository contains the Vulkan
      SC loader that is used for Linux, Windows, MacOS, and iOS. </li>
+-->
 <li> The <a href="https://github.com/KhronosGroup/VulkanSC-pcutil"
      id="vulkan-pcutil"> VulkanSC-pcutil</a> repository contains a Vulkan SC
      Pipeline Cache Utility library. </li>
@@ -270,10 +274,12 @@ include_once("../../assets/static_pages/khr_page_top.php");
 
 <h3> <a name="repo-samples"></a> <b>Sample Code Repository</b> </h3>
 
+<!-- Not available for Vulkan SC 1.0 yet
 <p> The <a href="https://github.com/KhronosGroup/VulkanSC-Samples">
     VulkanSC-Samples</a> repository contains sample code showing use of
     Vulkan SC, contributed by various Khronos members and other authors.
     </p>
+-->
 
 <h3> <a name="repo-other"></a> <b>Other Repositories</b> </h3>
 
