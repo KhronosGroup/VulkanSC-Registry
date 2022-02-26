@@ -169,10 +169,7 @@ include_once("../../assets/static_pages/khr_page_top.php");
     into the Vulkan-Docs repository. </a> </p>
 
 <!-- Generated from xml/indexExt.py in the VulkanSC-Docs repository -->
-    <!--
 <?php include_once("extensions.php"); ?>
-    -->
-<p> <b>NOTE:</b> List of SC extensions TBD. </p>
 
 <p> VulkanSC-Docs also contains the header files, API Registry, and reference
     page sources. </p>
@@ -297,7 +294,7 @@ include_once("../../assets/static_pages/khr_page_top.php");
      href="#vulkan-headers">VulkanSC-Headers</a> repository. </li>
     -->
 </ul>
- 
+
 <h3> <a name="feedback"></a> <b>Providing Feedback on the Registry</b> </h3>
 
 <p> Khronos welcomes comments and bug reports. To provide feedback on the
