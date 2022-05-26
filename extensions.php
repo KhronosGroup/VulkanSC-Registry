@@ -67,4 +67,7 @@
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_vertex_input_dynamic_state.html"> VK_EXT_vertex_input_dynamic_state </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_ycbcr_2plane_444_formats.html"> VK_EXT_ycbcr_2plane_444_formats </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_ycbcr_image_arrays.html"> VK_EXT_ycbcr_image_arrays </a> </li>
+    <li> <b>  NV Extensions (NVIDIA Corporation)  </b> </li>
+    <li> <a href="specs/1.0-extensions/man/html/VK_NV_external_memory_sci_buf.html"> VK_NV_external_memory_sci_buf </a> </li>
+    <li> <a href="specs/1.0-extensions/man/html/VK_NV_external_sci_sync.html"> VK_NV_external_sci_sync </a> </li>
 </ul>
