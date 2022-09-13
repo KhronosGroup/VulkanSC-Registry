@@ -70,4 +70,6 @@
     <li> <b>  NV Extensions (NVIDIA Corporation)  </b> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_NV_external_memory_sci_buf.html"> VK_NV_external_memory_sci_buf </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_NV_external_sci_sync.html"> VK_NV_external_sci_sync </a> </li>
+    <li> <a href="specs/1.0-extensions/man/html/VK_NV_external_sci_sync2.html"> VK_NV_external_sci_sync2 </a> </li>
+    <li> <a href="specs/1.0-extensions/man/html/VK_NV_private_vendor_info.html"> VK_NV_private_vendor_info </a> </li>
 </ul>
