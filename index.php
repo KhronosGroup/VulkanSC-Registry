@@ -182,11 +182,11 @@ include_once("../../assets/static_pages/khr_page_top.php");
     loader and validation layers</a> GitHub repository, are all that's
     needed. We also provide a canonical version of these headers
     corresponding to spec updates in the <tt>sc_main</tt> branch of the <a
-    href="#vulkan-headers"> KhronosGroup/Vulkan-Headers</a> repository.
+    href="#vulkan-headers"> KhronosGroup/VulkanSC-Headers</a> repository.
     These headers do <b>not</b> include VulkanHPP-style C++ headers at present,
     but there is a MISRA C++ friendly <tt>vulkan_sc_core.hpp</tt> header.</p>
 
-<p> The <tt>sc_main</tt> branch of Vulkan-Headers also includes a <a
+<p> The <tt>sc_main</tt> branch of VulkanSC-Headers also includes a <a
     href="specs/1.0-extensions/validation/validusage.json">JSON file
     containing Valid Usage ID (VUID) tags</a> (and corresponding valid usage
     statements) extracted from the specification sources. This is used only
@@ -201,7 +201,7 @@ include_once("../../assets/static_pages/khr_page_top.php");
     href="#apiregistry">API Registry</a> and scripts under <b>xml/</b>. </p>
 
 <p> Note: there are two static headers included in the <tt>sc_main</tt>
-    branch of Vulkan-Headers, <tt>vk_platform.h</tt> and <tt>vulkan_sc.h</tt>.
+    branch of VulkanSC-Headers, <tt>vk_platform.h</tt> and <tt>vulkan_sc.h</tt>.
     These headers are not generated dynamically from the VulkanSC-Docs
     repository. </p>
 
@@ -246,8 +246,8 @@ include_once("../../assets/static_pages/khr_page_top.php");
 
 <ul>
 <li> The <tt>sc_main</tt> branch of the <a
-     href="https://github.com/KhronosGroup/Vulkan-Headers"
-     id="vulkan-headers"> Vulkan-Headers</a> repository contains a copy of
+     href="https://github.com/KhronosGroup/VulkanSC-Headers"
+     id="vulkan-headers"> VulkanSC-Headers</a> repository contains a copy of
      the Vulkan XML API Registry and scripts for processing it, taken from
      the latest public specification update in the <a href="#repo-docs">
      VulkanSC-Docs</a> project, and the corresponding generated Vulkan SC API
