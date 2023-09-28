@@ -248,23 +248,19 @@ include_once("../../assets/static_pages/khr_page_top.php");
 <li> The <tt>sc_main</tt> branch of the <a
      href="https://github.com/KhronosGroup/VulkanSC-Headers"
      id="vulkan-headers"> VulkanSC-Headers</a> repository contains a copy of
-     the Vulkan XML API Registry and scripts for processing it, taken from
+     the Vulkan SC XML API Registry and scripts for processing it, taken from
      the latest public specification update in the <a href="#repo-docs">
      VulkanSC-Docs</a> project, and the corresponding generated Vulkan SC API
      headers. </li>
-<!-- Not available for Vulkan SC 1.0 yet
-<li> The <a href="https://github.com/KhronosGroup/Vulkan-Tools"
-     id="vulkan-tools"> Vulkan-Tools</a> repository contains Khronos
-     official Vulkan SC Tools and Utilities for Windows, Linux, Android, and
-     MacOS. </li>
-<li> The <a href="https://github.com/KhronosGroup/Vulkan-ValidationLayers"
-     id="vulkan-layers"> Vulkan-ValidationLayers</a> repository contains
-     the Khronos official Vulkan SC validation layers for Windows, Linux,
-     Android, and MacOS. </li>
-<li> The <a href="https://github.com/KhronosGroup/Vulkan-Loader"
-     id="vulkan-loader"> Vulkan-Loader</a> repository contains the Vulkan
-     SC loader that is used for Linux, Windows, MacOS, and iOS. </li>
--->
+<li> The <a href="https://github.com/KhronosGroup/VulkanSC-Tools"
+     id="vulkan-tools"> VulkanSC-Tools</a> repository contains Khronos
+     official Vulkan SC Tools and Utilities. </li>
+<li> The <a href="https://github.com/KhronosGroup/VulkanSC-ValidationLayers"
+     id="vulkan-layers"> VulkanSC-ValidationLayers</a> repository contains
+     the Khronos official Vulkan SC validation layers. </li>
+<li> The <a href="https://github.com/KhronosGroup/VulkanSC-Loader"
+     id="vulkan-loader"> VulkanSC-Loader</a> repository contains the Vulkan
+     SC loader. </li>
 <li> The <a href="https://github.com/KhronosGroup/VulkanSC-pcutil"
      id="vulkan-pcutil"> VulkanSC-pcutil</a> repository contains a Vulkan SC
      Pipeline Cache Utility library. </li>
