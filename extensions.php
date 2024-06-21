@@ -1,5 +1,6 @@
 <ul>
     <li> <b>  KHR Extensions (Khronos)  </b> </li>
+    <li> <a href="specs/1.0-extensions/man/html/VK_KHR_calibrated_timestamps.html"> VK_KHR_calibrated_timestamps </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_copy_commands2.html"> VK_KHR_copy_commands2 </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_display.html"> VK_KHR_display </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_display_swapchain.html"> VK_KHR_display_swapchain </a> </li>
@@ -9,7 +10,10 @@
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_fragment_shading_rate.html"> VK_KHR_fragment_shading_rate </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_get_display_properties2.html"> VK_KHR_get_display_properties2 </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_get_surface_capabilities2.html"> VK_KHR_get_surface_capabilities2 </a> </li>
+    <li> <a href="specs/1.0-extensions/man/html/VK_KHR_global_priority.html"> VK_KHR_global_priority </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_incremental_present.html"> VK_KHR_incremental_present </a> </li>
+    <li> <a href="specs/1.0-extensions/man/html/VK_KHR_index_type_uint8.html"> VK_KHR_index_type_uint8 </a> </li>
+    <li> <a href="specs/1.0-extensions/man/html/VK_KHR_line_rasterization.html"> VK_KHR_line_rasterization </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_object_refresh.html"> VK_KHR_object_refresh </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_performance_query.html"> VK_KHR_performance_query </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_shader_clock.html"> VK_KHR_shader_clock </a> </li>
@@ -19,12 +23,12 @@
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_swapchain.html"> VK_KHR_swapchain </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_swapchain_mutable_format.html"> VK_KHR_swapchain_mutable_format </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_KHR_synchronization2.html"> VK_KHR_synchronization2 </a> </li>
+    <li> <a href="specs/1.0-extensions/man/html/VK_KHR_vertex_attribute_divisor.html"> VK_KHR_vertex_attribute_divisor </a> </li>
     <li> <b>  EXT Extensions (Multivendor)  </b> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_4444_formats.html"> VK_EXT_4444_formats </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_application_parameters.html"> VK_EXT_application_parameters </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_astc_decode_mode.html"> VK_EXT_astc_decode_mode </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_blend_operation_advanced.html"> VK_EXT_blend_operation_advanced </a> </li>
-    <li> <a href="specs/1.0-extensions/man/html/VK_EXT_calibrated_timestamps.html"> VK_EXT_calibrated_timestamps </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_color_write_enable.html"> VK_EXT_color_write_enable </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_conservative_rasterization.html"> VK_EXT_conservative_rasterization </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_custom_border_color.html"> VK_EXT_custom_border_color </a> </li>
@@ -41,7 +45,6 @@
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_external_memory_host.html"> VK_EXT_external_memory_host </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_filter_cubic.html"> VK_EXT_filter_cubic </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_fragment_shader_interlock.html"> VK_EXT_fragment_shader_interlock </a> </li>
-    <li> <a href="specs/1.0-extensions/man/html/VK_EXT_global_priority.html"> VK_EXT_global_priority </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_hdr_metadata.html"> VK_EXT_hdr_metadata </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_headless_surface.html"> VK_EXT_headless_surface </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_image_drm_format_modifier.html"> VK_EXT_image_drm_format_modifier </a> </li>
@@ -63,11 +66,11 @@
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_texel_buffer_alignment.html"> VK_EXT_texel_buffer_alignment </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_texture_compression_astc_hdr.html"> VK_EXT_texture_compression_astc_hdr </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_validation_features.html"> VK_EXT_validation_features </a> </li>
-    <li> <a href="specs/1.0-extensions/man/html/VK_EXT_vertex_attribute_divisor.html"> VK_EXT_vertex_attribute_divisor </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_vertex_input_dynamic_state.html"> VK_EXT_vertex_input_dynamic_state </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_ycbcr_2plane_444_formats.html"> VK_EXT_ycbcr_2plane_444_formats </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_ycbcr_image_arrays.html"> VK_EXT_ycbcr_image_arrays </a> </li>
     <li> <b>  NV Extensions (NVIDIA Corporation)  </b> </li>
+    <li> <a href="specs/1.0-extensions/man/html/VK_NV_acquire_winrt_display.html"> VK_NV_acquire_winrt_display </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_NV_external_memory_sci_buf.html"> VK_NV_external_memory_sci_buf </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_NV_external_sci_sync.html"> VK_NV_external_sci_sync </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_NV_external_sci_sync2.html"> VK_NV_external_sci_sync2 </a> </li>
