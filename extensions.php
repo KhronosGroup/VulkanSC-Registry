@@ -50,6 +50,7 @@
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_image_drm_format_modifier.html"> VK_EXT_image_drm_format_modifier </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_image_robustness.html"> VK_EXT_image_robustness </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_index_type_uint8.html"> VK_EXT_index_type_uint8 </a> </li>
+    <li> <a href="specs/1.0-extensions/man/html/VK_EXT_layer_settings.html"> VK_EXT_layer_settings </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_line_rasterization.html"> VK_EXT_line_rasterization </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_memory_budget.html"> VK_EXT_memory_budget </a> </li>
     <li> <a href="specs/1.0-extensions/man/html/VK_EXT_pci_bus_info.html"> VK_EXT_pci_bus_info </a> </li>
