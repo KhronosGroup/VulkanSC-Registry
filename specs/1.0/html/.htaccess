@@ -1,0 +1,1 @@
+RewriteRule ^vkspec.html$ https://registry.khronos.org/vulkansc/specs/1.0-extensions/html/vkspec.html [L,R=301]
