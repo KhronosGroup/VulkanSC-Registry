@@ -32,36 +32,40 @@ include_once("../../assets/static_pages/khr_page_top.php");
     <li> <a href="#apispecs"/> <b>Vulkan SC 1.0 API Specifications</b> </a> </li>
     <li> <a href="#dataformat"/> <b>Khronos Data Format Specification</b> </a> </li>
     <li> <a href="#styleguide"/> <b>Vulkan Documentation and Extensions:
-         Procedures and Conventions</b> </a> (the &ldquo;Style Guide&rdquo;)
-         </li>
-  <!-- Not available for Vulkan SC yet
-    <li> <a href="#refguide"/> <b>Vulkan 1.0 API Quick Reference</b> </a> </li>
-  -->
+	 Procedures and Conventions</b> </a> (the &ldquo;Style Guide&rdquo;)
+	 </li>
     <li> <a href="#refpages"/> <b>Vulkan SC API Reference Pages</b> </a> </li>
     <li> <a href="#repos"/> <b>Vulkan SC GitHub Repositories</b>
-        <ul>
-        <li> <a href="#repo-docs"/> <b>API and Extension Specification Repository</b> </a>
-            <ul>
-            <li> <a href="#headers"/> <b>Header Files</b> and <b>Valid Usage Database</b></a> </li>
-            <li> <a href="#apiregistry"/> <b>API Registry</b> </a> </li>
-            </ul> </li>
-        <li> <a href="#repo-cts"/> <b>Conformance Test Suite Repository</b> </a> </li>
-        <li> <a href="#repo-loader"/> <b>Loader and Validation Layers Repositories</b> </a> </li>
-        <li> <a href="#repo-samples"/> <b>Sample Code Repository</b> </a> </li>
-        </ul> </li>
+	<ul>
+	<li> <a href="#repo-docs"/> <b>API and Extension Specification Repository</b> </a>
+	    <ul>
+	    <li> <a href="#headers"/> <b>Header Files</b> and <b>Valid Usage Database</b></a> </li>
+	    <li> <a href="#apiregistry"/> <b>API Registry</b> </a> </li>
+	    </ul> </li>
+	<li> <a href="#repo-cts"/> <b>Conformance Test Suite Repository</b> </a> </li>
+	<li> <a href="#repo-loader"/> <b>Loader and Validation Layers Repositories</b> </a> </li>
+	<li> <a href="#repo-samples"/> <b>Sample Code Repository</b> </a> </li>
+	</ul> </li>
     <li> <a href="#feedback"> <b>Providing Feedback on the Registry</b> </a>
 </ul>
 
 
 <h2> <a name="apispecs"></a> <b>Vulkan SC 1.0 API Specifications</b> </h2>
 
-<p> We publish the Vulkan SC API Specification in PDF and HTML forms. The
-    single-file HTML documents is considerably slower to load than the PDF.
-    At present we are not publishing a chunked HTML version of the
-    Specification. </p>
+<p> We publish the current Vulkan SC API Specification in PDF and HTML forms.
+    The single-file HTML documents is considerably slower to load than
+    the PDF. </p>
 
-<p> There are several versions of the Vulkan SC 1.0 Specification, as well as
-    related Specifications and collateral material: </p>
+<p> In the past, we published different versions of the Specification
+    for the Vulkan SC 1.0 core, and core plus all registered extensions.
+    As of March 2025, we are <b>only</b> publishing the latest core
+    version plus all registered extensions.
+    We have attempted to redirect the older 1.0 core forms of the
+    Specification meaningfully.
+    If you experience redirection problems, please file an <a
+    href="https://github.com/KhronosGroup/VulkanSC-Registry/issues"> issue
+    </a> in the GitHub project hosting the registry and include the URL you
+    were attempting to reach. </p>
 
 <ul>
 <li> <b>Vulkan SC 1.0 Core API + all published Extensions</b>
@@ -70,16 +74,12 @@ include_once("../../assets/static_pages/khr_page_top.php");
      This Specification includes all registered Vulkan SC extensions which have
      been incorporated into the Specification Repository, including KHR,
      EXT, and vendor extensions. </li>
-<li> <b>Vulkan SC 1.0 Core API</b>
-     <a href="specs/1.0/pdf/vkspec.pdf">(PDF)</a>
-     <a href="specs/1.0/html/vkspec.html">(Single-file HTML)</a></li>
 </ul>
-
 
 <h2> <a name="dataformat"></a> <b>Khronos Data Format Specification</b> </h2>
 
-<p> The <a href="https://www.khronos.org/registry/dataformat/"> Data
-    Format Specification</a> (version 1.3) defines compressed texture
+<p> The <a href="https://www.khronos.org/registry/dataformat/"> Khronos Data
+    Format Specification</a> defines compressed texture
     formats used by Vulkan SC, and portions of that specification are
     incorporated into the Vulkan SC API Specification by reference. </p>
 
@@ -87,7 +87,7 @@ include_once("../../assets/static_pages/khr_page_top.php");
 <h2> <a name="styleguide"></a> <b>Vulkan Documentation and Extensions:
      Procedures and Conventions</b> </h2>
 
-<p> The <a href="https://www.khronos.org/registry/vulkan/specs/1.3/styleguide.html">Vulkan Documentation and
+<p> The <a href="https://www.khronos.org/registry/vulkan/specs/latest/styleguide.html">Vulkan Documentation and
     Extensions: Procedures and Conventions</a> document (colloquially, the
     &ldquo;Style Guide&rdquo;) defines mandatory and recommended conventions
     and best practices used in creating and modifying the API Specification
@@ -98,20 +98,7 @@ include_once("../../assets/static_pages/khr_page_top.php");
 <p> <b>NOTE:</b> Vulkan SC and Vulkan use the same style guide. </p>
 
 
-  <!-- Not updated for Vulkan SC 1.0 yet
-<h2> <a name="refguide"></a> <b>Vulkan SC 1.0 API Quick Reference</b> </h2>
-
-<p> The <a href="specs/1.0/refguide/Vulkan SC-1.0-web.pdf">Vulkan SC 1.0 API Quick
-    Reference (PDF)</a> is a compact document summarizing the Vulkan SC 1.0 API
-    commands, structures, and enumerants.
-
-<p> The <a href="specs/1.0/refguide/Vulkan SC-1.1-RefGuide.zip"> InDesign
-    sources </a> for the Quick Reference are also available, formatted as a
-    <b>.zip</b> file. </p>
-  -->
-
-
-<h2> <a name="refpages"></a> <b>API Reference Pages</b> </h2>
+<h2> <a name="refpages"></a> <b>Vulkan SC API Reference Pages</b> </h2>
 
 <p> The Vulkan SC API Reference Pages describe how to use individual core
     API and extension commands. The goal is to define all commands and
