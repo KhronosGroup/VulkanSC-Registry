@@ -24,6 +24,7 @@ Interesting files in this repository include:
 
 ## Spec releases:
 
+* Vulkan SC 1.0.20 Core API + all published Extensions ([PDF](../vksc1.0.20/specs/1.0-extensions/pdf/vkspec.pdf)) ([Download HTML](../../raw/vksc1.0.20/specs/1.0-extensions/html/vkspec.html?download=))
 * Vulkan SC 1.0.19 Core API + all published Extensions ([PDF](../vksc1.0.19/specs/1.0-extensions/pdf/vkspec.pdf)) ([Download HTML](../../raw/vksc1.0.19/specs/1.0-extensions/html/vkspec.html?download=))
 * Vulkan SC 1.0.18 Core API + all published Extensions ([PDF](../vksc1.0.18/specs/1.0-extensions/pdf/vkspec.pdf)) ([Download HTML](../../raw/vksc1.0.18/specs/1.0-extensions/html/vkspec.html?download=))
 * Vulkan SC 1.0.17 Core API + all published Extensions ([PDF](../vksc1.0.17/specs/1.0-extensions/pdf/vkspec.pdf)) ([Download HTML](../../raw/vksc1.0.17/specs/1.0-extensions/html/vkspec.html?download=))
