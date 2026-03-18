@@ -16,14 +16,16 @@ Interesting files in this repository include:
 * index.php - toplevel index page for the web view. This relies on PHP
   include files found elsewhere on www.khronos.org and so is not very useful
   in isolation.
-* specs/1.0/html/vkspec.html - Vulkan SC 1.0 core API specifications and
-  reference pages and API reference card.
 * specs/1.0-extensions/html/vkspec.html - Vulkan SC 1.0 API specification
   including all registered and published extensions from Khronos, vendors,
   and other authors.
 
+NOTE: we no longer publish a core-only version of the specification, only
+the 1.0 + all extensions specification.
+
 ## Spec releases:
 
+* Vulkan SC 1.0.21 Core API + all published Extensions ([PDF](../vksc1.0.21/specs/1.0-extensions/pdf/vkspec.pdf)) ([Download HTML](../../raw/vksc1.0.21/specs/1.0-extensions/html/vkspec.html?download=))
 * Vulkan SC 1.0.20 Core API + all published Extensions ([PDF](../vksc1.0.20/specs/1.0-extensions/pdf/vkspec.pdf)) ([Download HTML](../../raw/vksc1.0.20/specs/1.0-extensions/html/vkspec.html?download=))
 * Vulkan SC 1.0.19 Core API + all published Extensions ([PDF](../vksc1.0.19/specs/1.0-extensions/pdf/vkspec.pdf)) ([Download HTML](../../raw/vksc1.0.19/specs/1.0-extensions/html/vkspec.html?download=))
 * Vulkan SC 1.0.18 Core API + all published Extensions ([PDF](../vksc1.0.18/specs/1.0-extensions/pdf/vkspec.pdf)) ([Download HTML](../../raw/vksc1.0.18/specs/1.0-extensions/html/vkspec.html?download=))
