@@ -25,6 +25,7 @@ the 1.0 + all extensions specification.
 
 ## Spec releases:
 
+* Vulkan SC 1.0.22 Core API + all published Extensions ([PDF](../vksc1.0.22/specs/1.0-extensions/pdf/vkspec.pdf)) ([Download HTML](../../raw/vksc1.0.22/specs/1.0-extensions/html/vkspec.html?download=))
 * Vulkan SC 1.0.21 Core API + all published Extensions ([PDF](../vksc1.0.21/specs/1.0-extensions/pdf/vkspec.pdf)) ([Download HTML](../../raw/vksc1.0.21/specs/1.0-extensions/html/vkspec.html?download=))
 * Vulkan SC 1.0.20 Core API + all published Extensions ([PDF](../vksc1.0.20/specs/1.0-extensions/pdf/vkspec.pdf)) ([Download HTML](../../raw/vksc1.0.20/specs/1.0-extensions/html/vkspec.html?download=))
 * Vulkan SC 1.0.19 Core API + all published Extensions ([PDF](../vksc1.0.19/specs/1.0-extensions/pdf/vkspec.pdf)) ([Download HTML](../../raw/vksc1.0.19/specs/1.0-extensions/html/vkspec.html?download=))
